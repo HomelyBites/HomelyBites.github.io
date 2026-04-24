@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Homely Bites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Homely Bites</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="menu-header">
+        <h1>Our Menu</h1>
+        <p>Fresh, Tasty & Affordable Quick Meals</p>
+    </header>
+
+    <section class="menu-categories">
+        <div class="category-tabs">
+            <button class="tab active" data-category="wraps">🥙 Wraps</button>
+            <button class="tab" data-category="bowls">🥗 Bowls</button>
+            <button class="tab" data-category="smoothies">🥤 Smoothies</button>
+            <button class="tab" data-category="combos">📦 Combos</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-item" data-category="wraps">
+                <div class="menu-img">🥙</div>
+                <h3>Grilled Chicken Wrap</h3>
+                <p>Tender grilled chicken with fresh veggies and secret sauce</p>
+                <span class="price">₹149</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="wraps">
+                <div class="menu-img">🥙</div>
+                <h3>Paneer Tikka Wrap</h3>
+                <p>Crispy paneer with onions, tomatoes and mint chutney</p>
+                <span class="price">₹129</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="wraps">
+                <div class="menu-img">🥙</div>
+                <h3>Veggie Delight Wrap</h3>
+                <p>Mixed vegetables with cheese and tangy sauce</p>
+                <span class="price">₹99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="wraps">
+                <div class="menu-img">🥙</div>
+                <h3>Egg Cheese Wrap</h3>
+                <p>Scrambled eggs with melted cheese</p>
+                <span class="price">₹119</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="menu-item" data-category="bowls">
+                <div class="menu-img">🥗</div>
+                <h3>Quinoa Power Bowl</h3>
+                <p>Quinoa, grilled veggies, chickpeas, and tahini dressing</p>
+                <span class="price">₹179</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="bowls">
+                <div class="menu-img">🥗</div>
+                <h3>Chicken Protein Bowl</h3>
+                <p>Grilled chicken, brown rice, beans, and avocado</p>
+                <span class="price">₹199</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="bowls">
+                <div class="menu-img">🥗</div>
+                <h3>Mediterranean Bowl</h3>
+                <p>Falus, olives, cucumber, feta, and lemon dressing</p>
+                <span class="price">₹169</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="bowls">
+                <div class="menu-img">🥗</div>
+                <h3>Asian Sesame Bowl</h3>
+                <p>Noodles, stir-fried veggies, tofu, and sesame sauce</p>
+                <span class="price">₹159</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="menu-item" data-category="smoothies">
+                <div class="menu-img">🥤</div>
+                <h3>Mango Blast</h3>
+                <p>Fresh mango, yogurt, honey, and chia seeds</p>
+                <span class="price">₹89</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="smoothies">
+                <div class="menu-img">🥤</div>
+                <h3>Berry Boost</h3>
+                <p>Mixed berries, banana, almond milk, and protein</p>
+                <span class="price">₹99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="smoothies">
+                <div class="menu-img">🥤</div>
+                <h3>Green Detox</h3>
+                <p>Spinach, kale, apple, ginger, and coconut water</p>
+                <span class="price">₹109</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="smoothies">
+                <div class="menu-img">🥤</div>
+                <h3>Peanut Butter Power</h3>
+                <p>Banana, peanut butter, oats, and milk</p>
+                <span class="price">₹99</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="menu-item" data-category="combos">
+                <div class="menu-img">📦</div>
+                <h3>Student Combo</h3>
+                <p>Any wrap + small smoothie + chips</p>
+                <span class="price">₹199</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="combos">
+                <div class="menu-img">📦</div>
+                <h3>Office Power Combo</h3>
+                <p>Any bowl + any smoothie + fruit</p>
+                <span class="price">₹299</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="combos">
+                <div class="menu-img">📦</div>
+                <h3>Family Pack</h3>
+                <p>4 wraps + 2 bowls + 4 smoothies</p>
+                <span class="price">₹799</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-category="combos">
+                <div class="menu-img">📦</div>
+                <h3>Weekly Meal Plan</h3>
+                <p>5 days, 1 meal per day - customized menu</p>
+                <span class="price">₹999</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Homely Bites</h4>
+                <p>Delicious Meals Made Simple</p>
+                <p>Fast • Fresh • Consistent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/homely.bytes/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61575462883397" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Visit Us</h4>
+                <p>Near campuses & workplaces</p>
+                <p>Open daily for quick bites</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Homely Bites. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        const tabs = document.querySelectorAll('.tab');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const category = tab.dataset.category;
+                
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                menuItems.forEach(item => {
+                    if (category === 'all' || item.dataset.category === category) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

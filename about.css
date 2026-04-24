@@ -1,0 +1,274 @@
+.about-header {
+    background: linear-gradient(135deg, var(--accent) 0%, #3d512e 100%);
+    padding: 8rem 2rem 4rem;
+    text-align: center;
+    color: var(--white);
+    margin-top: 60px;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.mission {
+    background: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission h2 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.mission p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.target-customers {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.target-customers h2 {
+    text-align: center;
+    color: var(--accent);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.customer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.customer-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px var(--shadow);
+    transition: all 0.3s;
+    border-top: 4px solid var(--primary);
+}
+
+.customer-card:hover {
+    transform: translateY(-10px);
+}
+
+.customer-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.customer-card h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.customer-card p {
+    color: #666;
+}
+
+.value-proposition {
+    background: var(--light);
+    padding: 4rem 2rem;
+}
+
+.value-proposition h2 {
+    text-align: center;
+    color: var(--accent);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-item {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    box-shadow: 0 5px 20px var(--shadow);
+    transition: all 0.3s;
+}
+
+.value-item:hover {
+    transform: scale(1.02);
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.value-item h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.value-item p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.swot {
+    background: var(--white);
+    padding: 4rem 2rem;
+}
+
+.swot h2 {
+    text-align: center;
+    color: var(--accent);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.swot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.swot-card {
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.swot-card.strengths {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    border-left: 5px solid var(--accent);
+}
+
+.swot-card.opportunities {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    border-left: 5px solid var(--primary);
+}
+
+.swot-card h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.swot-card ul {
+    list-style: none;
+}
+
+.swot-card li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.swot-card li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.timeline {
+    background: var(--light);
+    padding: 4rem 2rem;
+}
+
+.timeline h2 {
+    text-align: center;
+    color: var(--accent);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 5px 20px var(--shadow);
+    transition: all 0.3s;
+    position: relative;
+}
+
+.timeline-item:hover {
+    transform: translateY(-10px);
+}
+
+.timeline-phase {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.timeline-item h3 {
+    color: var(--primary);
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.timeline-item p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .about-header h1,
+    .mission h2,
+    .target-customers h2,
+    .value-proposition h2,
+    .swot h2,
+    .timeline h2 {
+        font-size: 1.8rem;
+    }
+
+    .timeline-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timeline-item {
+        width: 100%;
+        max-width: 350px;
+    }
+}

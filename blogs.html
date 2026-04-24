@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Homely Bites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="blogs.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Homely Bites</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blogs.html" class="active">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="about-header">
+        <h1>Our Blogs</h1>
+        <p>Latest Updates, Tips & Food Stories</p>
+    </header>
+
+    <section class="blogs-container">
+        <article class="blog-card">
+            <div class="blog-img">🥗</div>
+            <div class="blog-content">
+                <span class="blog-date">April 20, 2026</span>
+                <h3>5 Quick Healthy Lunch Ideas for Busy Professionals</h3>
+                <p>Running against the clock? Here are five nutritious lunch ideas that you can prepare in under 15 minutes. From power bowls to protein wraps, discover how to fuel your workday without compromising on health or taste.</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">🥙</div>
+            <div class="blog-content">
+                <span class="blog-date">April 15, 2026</span>
+                <h3>Why Buddha Bowls Are the Future of Quick Dining</h3>
+                <p>Learn about the popularity of Buddha bowls and how they combine nutrition, flavor, and convenience in one satisfying meal. Find out what makes them perfect for students and professionals alike.</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">🥤</div>
+            <div class="blog-content">
+                <span class="blog-date">April 10, 2026</span>
+                <h3>Smoothie Secrets: Best Post-Workout Drinks</h3>
+                <p>Maximize your fitness results with these protein-packed smoothie recipes. Whether you're hitting the gym or just need an energy boost, these drinks will keep you going throughout the day.</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">💰</div>
+            <div class="blog-content">
+                <span class="blog-date">April 5, 2026</span>
+                <h3>Budget-Friendly Eating: Student Meal Hacks</h3>
+                <p>Eating well doesn't have to break the bank. Discover smart tips and tricks to enjoy nutritious meals while sticking to a student budget. Learn about our special student discounts and combo deals!</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">🍽️</div>
+            <div class="blog-content">
+                <span class="blog-date">March 28, 2026</span>
+                <h3>The Rise of Quick Service Restaurants in India</h3>
+                <p>Explore how QSRs are transforming the Indian food landscape, meeting the demands of urban professionals and students who need quality meals without the long wait.</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">🥗</div>
+            <div class="blog-content">
+                <span class="blog-date">March 20, 2026</span>
+                <h3>Fresh Ingredients, Better Taste: Our Commitment</h3>
+                <p>At Homely Bites, quality starts with the ingredients. Learn about our farm-to-table approach and how we ensure every dish is made with fresh, wholesome ingredients.</p>
+                <a href="#" class="read-more">Read More →</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest blogs, offers, and updates</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="submit-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Homely Bites</h4>
+                <p>Delicious Meals Made Simple</p>
+                <p>Fast • Fresh • Consistent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/homely.bytes/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61575462883397" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Visit Us</h4>
+                <p>Near campuses & workplaces</p>
+                <p>Open daily for quick bites</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Homely Bites. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

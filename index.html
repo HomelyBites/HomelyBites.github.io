@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homely Bites - Delicious Meals Made Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Homely Bites</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Delicious Meals Made Simple</h1>
+            <p>Quick Service Restaurant for Busy Students & Professionals</p>
+            <a href="menu.html" class="btn">Explore Our Menu</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <div class="feature-icon">⚡</div>
+            <h3>Fast Service</h3>
+            <p>Meals ready in minutes</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🍽️</div>
+            <h3>Tasty & Flavorful</h3>
+            <p> Satisfying and delicious</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🥗</div>
+            <h3>Healthy & Balanced</h3>
+            <p>Fresh ingredients, customizable options</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">💰</div>
+            <h3>Affordable Pricing</h3>
+            <p>Pocket-friendly for all</p>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2>Why Choose Homely Bites?</h2>
+        <div class="why-grid">
+            <div class="why-card">
+                <h3>Time Crunch Solutions</h3>
+                <p>No time to cook or wait for long meals. We get you fed fast!</p>
+            </div>
+            <div class="why-card">
+                <h3>Healthy Alternatives</h3>
+                <p>Fresh, tasty meals - not junk or packaged snacks</p>
+            </div>
+            <div class="why-card">
+                <h3>Budget-Friendly</h3>
+                <p>Student discounts & combo deals available</p>
+            </div>
+            <div class="why-card">
+                <h3>Variety & Choice</h3>
+                <p>Rotating menus and customizable options</p>
+            </div>
+            <div class="why-card">
+                <h3>Cozy Spaces</h3>
+                <p>Dine-in with WiFi and music</p>
+            </div>
+            <div class="why-card">
+                <h3>Convenient Ordering</h3>
+                <p>App-based ordering and flexible takeaway</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Taste the Difference?</h2>
+        <p>One stop for quick homely bites - wraps, bowls, smoothies & more!</p>
+        <div class="cta-buttons">
+            <a href="menu.html" class="btn btn-primary">View Menu</a>
+            <a href="contact.html" class="btn btn-secondary">Order Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Homely Bites</h4>
+                <p>Delicious Meals Made Simple</p>
+                <p>Fast • Fresh • Consistent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/homely.bytes/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61575462883397" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Visit Us</h4>
+                <p>Near campuses & workplaces</p>
+                <p>Open daily for quick bites</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Homely Bites. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
